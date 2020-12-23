@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                wrap([$class: 'Xvfb', debug: true, displayName: 52]){
+                wrap([$class: 'Xvfb', debug: true, displayName: 73]){
                     sh 'mvn test'
                 }
             }
